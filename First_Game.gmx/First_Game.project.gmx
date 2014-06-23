@@ -33,12 +33,15 @@
       <sprite>sprites\spr_player2</sprite>
     </sprites>
     <sprites name="ship">
-      <sprite>sprites\obj_bullet</sprite>
+      <sprite>sprites\spr_bullet</sprite>
+      <sprite>sprites\spr_bullet2</sprite>
       <sprite>sprites\spr_ship</sprite>
+      <sprite>sprites\spr_enemy</sprite>
     </sprites>
   </sprites>
   <backgrounds name="background">
     <background>background\bg_clouds</background>
+    <background>background\bg_stars</background>
   </backgrounds>
   <paths name="paths"/>
   <scripts name="scripts">
@@ -50,10 +53,11 @@
       <object>objects\obj_parent_wall</object>
       <object>objects\obj_slope</object>
       <object>objects\obj_smile</object>
-      <object>objects\obj_player</object>
     </objects>
     <objects name="ship">
-      <object>objects\obj_ship</object>
+      <object>objects\obj_bullet</object>
+      <object>objects\obj_player</object>
+      <object>objects\obj_enemy</object>
     </objects>
   </objects>
   <rooms name="rooms">
